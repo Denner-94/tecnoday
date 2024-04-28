@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/desktop.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/24a9a552ee.js" crossorigin="anonymous"></script>
+    <title>Tecnoday - Login</title>
+</head>
+<body>
+    <section id="login">
+        <div id="img">
+    
+        </div>
+        <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja BEM-VINDO(A) novamente.<br> Faça login para acessar sua conta. </p>
+            <form action="login-php" method="post">
+                <div class="campo">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu E-mail" autocomplete="email">
+                    <label for="ilogin"></label>
+                </div>
+                <div class="campo">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password">
+                    <label for="isenha"></label>
+                </div>
+                <div class="entrada">
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci a Senha</a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
