@@ -9,7 +9,7 @@
         height: 600px;
     }
     #login > #img{
-        background: url(/img/login-300x300.jpg);
+        background-position: center top;
         background-size: cover;
         width: 100%;
     }
